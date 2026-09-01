@@ -1,0 +1,60 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.main-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.title {
+    color: #1a233c; 
+    font-size: 2.8em;
+    font-weight: 800;
+    margin-bottom: 50px;
+    letter-spacing: 0.5px;
+}
+
+.color-grid {
+    display: inline-grid;
+    grid-template-columns: repeat(4, auto); 
+    gap: 25px 50px; 
+    text-align: left; 
+}
+
+.color-item {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+
+.cool-gray { color: #4b5563; }
+.warm-gray { color: #78716c; }
+.amber     { color: #d97706; }
+.green     { color: #16a34a; }
+
+.cyan      { color: #0891b2; }
+.red       { color: #dc2626; }
+.yellow    { color: #eab308; }
+.emerald   { color: #059669; }
+
+.sky       { color: #0284c7; }
+.orange    { color: #ea580c; }
+.lime      { color: #65a30d; }
+.teal      { color: #0d9488; }
+
+.fuchsia   { color: #c026d3; }
+.pink      { color: #db2777; }
+.rose      { color: #e11d48; }
+.blue-gray { color: #334155; }
+
+.purple    { color: #9333ea; }
+.violet    { color: #7c3aed; }
+.indigo    { color: #4f46e5; }
+.blue      { color: #2563eb; }
