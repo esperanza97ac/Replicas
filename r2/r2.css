@@ -39,38 +39,31 @@ body {
 
 .span-4 { grid-column: span 4; } 
 .span-2 { grid-column: span 2; } 
-/* Fila 1 */
 .bg-blue-gray-top { background-color: #161b2e; } 
 
-/* Fila 2 */
 .bg-cool-gray { background-color: #445163; }
 .bg-warm-gray { background-color: #817d79; }
 .bg-amber     { background-color: #bd6117; }
 .bg-green     { background-color: #1c6c42; }
 
-/* Fila 3 */
 .bg-gray      { background-color: #363636; }
 .bg-red       { background-color: #e52e2b; }
 .bg-yellow    { background-color: #f2a900; }
 .bg-emerald   { background-color: #007355; }
 
-/* Fila 4 */
 .bg-true-gray { background-color: #515151; }
 .bg-orange    { background-color: #f15c13; }
 .bg-lime      { background-color: #58971e; }
 .bg-teal      { background-color: #1c6967; }
 
-/* Fila 5 */
 .bg-fuchsia   { background-color: #b21bc0; }
 .bg-pink      { background-color: #c9247a; }
 .bg-rose      { background-color: #ee4567; }
 
-/* Fila 6 */
 .bg-purple    { background-color: #7b24af; }
 .bg-violet    { background-color: #501e9f; }
 .bg-indigo    { background-color: #29348a; }
 .bg-blue      { background-color: #1e48a0; }
 
-/* Fila 7 */
 .bg-sky       { background-color: #008dd0; }
 .bg-cyan      { background-color: #1f6d82; }
