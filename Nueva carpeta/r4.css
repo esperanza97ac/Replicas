@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.palette-container {
+    background-color: #030712;
+    padding: 24px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 12px; 
+}
+
+.swatch {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    border-radius: 8px; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+
+.c-indigo-400  { background-color: #818cf8; }
+.c-violet-400  { background-color: #a78bfa; }
+.c-purple-400  { background-color: #c084fc; }
+.c-fuchsia-400 { background-color: #e879f9; }
+.c-pink-400    { background-color: #f472b6; }
+.c-rose-400    { background-color: #fb7185; }
+
+.c-indigo-500  { background-color: #6366f1; }
+.c-violet-500  { background-color: #8b5cf6; }
+.c-purple-500  { background-color: #a855f7; }
+.c-fuchsia-500 { background-color: #d946ef; }
+.c-pink-500    { background-color: #ec4899; }
+.c-rose-500    { background-color: #f43f5e; }
+
+.c-indigo-600  { background-color: #4f46e5; }
+.c-violet-600  { background-color: #7c3aed; }
+.c-purple-600  { background-color: #9333ea; }
+.c-fuchsia-600 { background-color: #c026d3; }
+.c-pink-600    { background-color: #db2777; }
+.c-rose-600    { background-color: #e11d48; }
+
+.c-indigo-700  { background-color: #4338ca; }
+.c-violet-700  { background-color: #6d28d9; }
+.c-purple-700  { background-color: #7e22ce; }
+.c-fuchsia-700 { background-color: #a21caf; }
+.c-pink-700    { background-color: #be185d; }
+.c-rose-700    { background-color: #be123c; }
+
+.c-indigo-800  { background-color: #3730a3; }
+.c-violet-800  { background-color: #5b21b6; }
+.c-purple-800  { background-color: #6b21a8; }
+.c-fuchsia-800 { background-color: #86198f; }
+.c-pink-800    { background-color: #9d174d; }
+.c-rose-800    { background-color: #9f1239; }
+
+.c-indigo-900  { background-color: #312e81; }
+.c-violet-900  { background-color: #4c1d95; }
+.c-purple-900  { background-color: #581c87; }
+.c-fuchsia-900 { background-color: #701a75; }
+.c-pink-900    { background-color: #831843; }
+.c-rose-900    { background-color: #881337; }
