@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a39e9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 650px;
+    padding: 20px;
+    border: 1px solid #d0d0d0;
+    box-sizing: border-box;
+}
+
+
+.titulo-principal {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.seccion-tecnologia {
+    margin-bottom: 25px;
+}
+
+.cabecera-seccion {
+    background-color: #7f7f7f;
+    padding: 6px 12px;
+    margin-bottom: 15px;
+}
+
+.cabecera-seccion h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cuerpo-seccion::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo-tecnologia {
+    float: left;
+    width: 100px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+.texto-descriptivo {
+    font-family: "Times New Roman", Times, Georgia, serif;
+    font-size: 15px;
+    line-height: 1.35;
+    color: #222222;
+    text-align: justify;
+    margin: 0;
+}
