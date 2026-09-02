@@ -45,17 +45,22 @@ body {
     color: #000;
 }
 
+.cuerpo-seccion {
+    padding-left: 35px;  /* Empuja el logo y el texto hacia la derecha */
+    padding-right: 35px; /* Crea un margen en el lado derecho del texto */
+}
+
 .cuerpo-seccion::after {
     content: "";
     display: table;
     clear: both;
+
 }
 
 .logo-tecnologia {
     float: left;
     width: 100px;
-    margin-right: 25px;
-    margin-bottom: 5px;
+    margin-right: 10px;
 }
 
 .texto-descriptivo {
@@ -64,5 +69,5 @@ body {
     line-height: 1.35;
     color: #222222;
     text-align: justify;
-    margin: 0;
+    margin:0;
 }
